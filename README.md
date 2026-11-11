@@ -62,4 +62,14 @@ All transaction and operational datasets are synthetic and created for this port
 ## Project Status
 
 Business analysis and initial modeling completed. Further validation, dashboard implementation, and operational testing would be required before a real-world launch.
+## Visual Analysis
+
+### Order Distribution by Zone
+![Orders by Zone](charts/orders_by_zone.png)
+
+### Delivery Performance Over Time
+![Average Delivery Time](charts/avg_elapsed_by_month.png)
+
+### Contribution Economics Scenarios
+![Contribution Scenarios](charts/contribution_scenarios.png)
 
