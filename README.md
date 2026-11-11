@@ -81,4 +81,6 @@ Business analysis and initial modeling completed. Further validation, dashboard 
 ## Interactive Dashboard
 
 [Open the Interactive Business Dashboard](dashboard.html)
+## Customer App Prototype
 
+[Launch the LOCAL Shopping App](Local_Commerce_Customer_App_Prototype.html)
