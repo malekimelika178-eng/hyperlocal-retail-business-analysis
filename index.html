@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hyperlocal Retail Marketplace | Business Analysis Portfolio</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:#202b27;background:#f8f9f6;line-height:1.65}
+header{background:#183d30;color:white;padding:75px 9%}
+nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:65px}
+nav strong{font-size:23px;letter-spacing:1px}
+nav a{color:white;text-decoration:none;margin-left:22px;font-size:13px}
+.tag{color:#c8e5a0;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:bold}
+h1{font-size:clamp(38px,6vw,65px);line-height:1.05;max-width:800px;margin:15px 0}
+header p{max-width:680px;color:#dce7df;font-size:18px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:13px 20px;border-radius:5px;text-decoration:none;font-weight:bold;background:#c8e5a0;color:#183d30}
+.btn.alt{background:transparent;border:1px solid #ffffff80;color:white}
+main{max-width:1100px;margin:auto;padding:55px 25px}
+section{margin-bottom:65px}
+h2{font-size:29px;margin-bottom:12px}
+.muted{color:#65716b}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:17px}
+.card{background:white;border:1px solid #e4e9e3;border-radius:10px;padding:22px}
+.card h3{margin-top:0}
+a{color:#285b45}
+.deliverables a{display:block;padding:13px 0;border-bottom:1px solid #e5e9e4;text-decoration:none}
+img{max-width:100%;border-radius:8px}
+footer{background:#183d30;color:#dce7df;padding:30px 9%;font-size:13px}
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+<strong>LOCAL / BUSINESS ANALYSIS</strong>
+<div>
+<a href="#overview">Overview</a>
+<a href="#work">My Work</a>
+<a href="#analysis">Analysis</a>
+<a href="#deliverables">Deliverables</a>
+</div>
+</nav>
+
+<div class="tag">Business Analyst Portfolio Project</div>
+<h1>Bringing neighborhood retail into one shopping experience.</h1>
+<p>A business analysis case study exploring a multi-category marketplace that connects customers with nearby retailers for convenient same-day delivery.</p>
+<div class="actions">
+<a class="btn" href="Local_Commerce_Customer_App_Prototype.html">Explore Customer App →</a>
+<a class="btn alt" href="dashboard.html">View Analytics Dashboard →</a>
+</div>
+</header>
+
+<main>
+<section id="overview">
+<div class="tag">01 / Project Overview</div>
+<h2>The business opportunity</h2>
+<p>Local retailers offer products customers want, but shopping across multiple stores can be fragmented and inconvenient. This project explores a unified marketplace where customers can discover products from nearby stores, place multi-store orders, and receive local delivery.</p>
+<p class="muted">The proposed pilot focuses on the UTC and La Jolla area of San Diego. The business concept, operating model, and financial assumptions are exploratory—not a launched business or confirmed retailer partnership.</p>
+</section>
+
+<section id="work">
+<div class="tag">02 / My Work</div>
+<h2>What I worked on</h2>
+<div class="cards">
+<div class="card"><h3>Business Requirements</h3><p>Defined business objectives, scope, requirements, user stories, and acceptance criteria.</p></div>
+<div class="card"><h3>Process Design</h3><p>Mapped the customer order journey, retailer fulfillment, delivery handoffs, and exceptions.</p></div>
+<div class="card"><h3>Data & SQL</h3><p>Designed a relational data model and developed SQL queries to examine order and delivery performance.</p></div>
+<div class="card"><h3>Financial Analysis</h3><p>Built illustrative pricing, cost, and contribution scenarios to explore unit economics.</p></div>
+<div class="card"><h3>Dashboard Planning</h3><p>Prepared KPI datasets and an interactive dashboard to explore operational performance.</p></div>
+<div class="card"><h3>Product Prototype</h3><p>Created a customer-facing prototype to demonstrate how the marketplace experience could work.</p></div>
+</div>
+</section>
+
+<section id="analysis">
+<div class="tag">03 / Analysis & Design</div>
+<h2>From business problem to proposed solution</h2>
+<div class="cards">
+<div class="card"><h3>Customer Experience</h3><p>Browse nearby stores, discover products, combine items from multiple retailers, and track delivery progress.</p></div>
+<div class="card"><h3>Retailer Operations</h3><p>Retailers confirm availability, prepare packages, and mark orders ready for pickup.</p></div>
+<div class="card"><h3>Delivery Operations</h3><p>Delivery partners receive prepared packages and complete assigned pickup and drop-off routes.</p></div>
+</div>
+<h3>Order fulfillment process</h3>
+<img src="lucidchart/Order_Fulfillment_Process.svg" alt="Order fulfillment process diagram">
+<h3>Database entity relationship diagram</h3>
+<img src="lucidchart/Data_Model_ERD.svg" alt="Database entity relationship diagram">
+</section>
+
+<section id="deliverables">
+<div class="tag">04 / Project Deliverables</div>
+<h2>Explore the work</h2>
+<div class="deliverables">
+<a href="Local_Commerce_Customer_App_Prototype.html">→ Customer-facing shopping app prototype</a>
+<a href="dashboard.html">→ Interactive business intelligence dashboard</a>
+<a href="documentation/BUSINESS_REQUIREMENTS_DOCUMENT.md">→ Business requirements document</a>
+<a href="documentation/USER_STORIES_AND_ACCEPTANCE_CRITERIA.md">→ User stories and acceptance criteria</a>
+<a href="documentation/DATA_DICTIONARY.md">→ Data dictionary</a>
+<a href="sql/schema.sql">→ SQL database schema</a>
+<a href="sql/analysis_queries.sql">→ SQL analysis queries</a>
+<a href="Local_Commerce_Analyst_Workbook.xlsx">→ Excel analysis workbook</a>
+<a href="Local_Commerce_Business_Analysis_Brief.pdf">→ Business analysis brief</a>
+<a href="tableau/TABLEAU_DASHBOARD_GUIDE.md">→ Tableau dashboard guide and datasets</a>
+</div>
+</section>
+
+<section>
+<div class="tag">05 / Data & Assumptions</div>
+<h2>Project limitations</h2>
+<p>Transaction and operational datasets are synthetic and created for analysis practice. Pricing, delivery costs, and financial projections are illustrative assumptions. Retailer names are research examples, not confirmed partners. The prototype demonstrates a proposed experience and does not process real orders or payments.</p>
+</section>
+</main>
+
+<footer>
+LOCAL — Hyperlocal Retail Marketplace Business Analysis Project<br>
+Business analysis portfolio case study · San Diego, California
+</footer>
+</body>
+</html>
