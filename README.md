@@ -72,4 +72,11 @@ Business analysis and initial modeling completed. Further validation, dashboard 
 
 ### Contribution Economics Scenarios
 ![Contribution Scenarios](charts/contribution_scenarios.png)
+## Business Process Flow
+
+![Order Fulfillment Process](lucidchart/Order_Fulfillment_Process.svg)
+## Database Design
+
+![Entity Relationship Diagram](lucidchart/Data_Model_ERD.svg)
+
 
