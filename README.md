@@ -78,4 +78,7 @@ Business analysis and initial modeling completed. Further validation, dashboard 
 ## Database Design
 
 ![Entity Relationship Diagram](lucidchart/Data_Model_ERD.svg)
+## Interactive Dashboard
+
+[Open the Interactive Business Dashboard](dashboard.html)
 
