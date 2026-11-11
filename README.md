@@ -79,4 +79,3 @@ Business analysis and initial modeling completed. Further validation, dashboard 
 
 ![Entity Relationship Diagram](lucidchart/Data_Model_ERD.svg)
 
-
