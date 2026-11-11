@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+<defs>
+  <style>
+    .title{font: bold 30px Arial,sans-serif;fill:#172554}
+    .sub{font:16px Arial,sans-serif;fill:#475569}
+    .head{font:bold 18px Arial,sans-serif;fill:#fff}
+    .field{font:15px Arial,sans-serif;fill:#1e293b}
+    .note{font:14px Arial,sans-serif;fill:#475569}
+    .entity{fill:#fff;stroke:#64748b;stroke-width:2;rx:10}
+    .bar{fill:#1e40af}
+    .line{stroke:#64748b;stroke-width:2;fill:none}
+    .rel{font:13px Arial,sans-serif;fill:#334155}
+  </style>
+</defs>
+<rect width="1200" height="850" fill="#f8fafc"/>
+<text x="50" y="55" class="title">Hyperlocal Retail Marketplace — Logical Data Model</text>
+<text x="50" y="83" class="sub">Core entities for customers, orders, retailer fulfillment, delivery partners, and payouts</text>
+
+<!-- connectors behind entities -->
+<path class="line" d="M300 250 H390 V190 H470"/>
+<path class="line" d="M300 250 H360 V480 H470"/>
+<path class="line" d="M600 290 V385"/>
+<path class="line" d="M730 190 H820"/>
+<path class="line" d="M600 520 V610"/>
+<path class="line" d="M950 300 V470"/>
+<path class="line" d="M820 540 H730 V690 H600"/>
+
+<!-- customer -->
+<g transform="translate(70,160)">
+ <rect class="entity" width="230" height="180"/><rect class="bar" width="230" height="38" rx="9"/>
+ <text x="14" y="26" class="head">CUSTOMER</text>
+ <text x="14" y="65" class="field">PK customer_id</text><text x="14" y="91" class="field">name</text>
+ <text x="14" y="117" class="field">email</text><text x="14" y="143" class="field">created_at</text>
+</g>
+<!-- order -->
+<g transform="translate(470,120)">
+ <rect class="entity" width="260" height="210"/><rect class="bar" width="260" height="38" rx="9"/>
+ <text x="14" y="26" class="head">CUSTOMER_ORDER</text>
+ <text x="14" y="65" class="field">PK order_id</text><text x="14" y="91" class="field">FK customer_id</text>
+ <text x="14" y="117" class="field">order_created_at</text><text x="14" y="143" class="field">delivery_speed</text>
+ <text x="14" y="169" class="field">order_status</text><text x="14" y="195" class="field">customer_total</text>
+</g>
+<!-- partner -->
+<g transform="translate(820,120)">
+ <rect class="entity" width="270" height="180"/><rect class="bar" width="270" height="38" rx="9"/>
+ <text x="14" y="26" class="head">DELIVERY_PARTNER</text>
+ <text x="14" y="65" class="field">PK partner_id</text><text x="14" y="91" class="field">partner_status</text>
+ <text x="14" y="117" class="field">vehicle_type</text><text x="14" y="143" class="field">activated_at</text>
+</g>
+<!-- stops -->
+<g transform="translate(470,385)">
+ <rect class="entity" width="260" height="210"/><rect class="bar" width="260" height="38" rx="9"/>
+ <text x="14" y="26" class="head">ORDER_STOP</text>
+ <text x="14" y="65" class="field">PK stop_id</text><text x="14" y="91" class="field">FK order_id</text>
+ <text x="14" y="117" class="field">FK retailer_id</text><text x="14" y="143" class="field">stop_sequence</text>
+ <text x="14" y="169" class="field">fulfillment_status</text><text x="14" y="195" class="field">ready_at</text>
+</g>
+<!-- retailer -->
+<g transform="translate(70,410)">
+ <rect class="entity" width="230" height="180"/><rect class="bar" width="230" height="38" rx="9"/>
+ <text x="14" y="26" class="head">RETAILER</text>
+ <text x="14" y="65" class="field">PK retailer_id</text><text x="14" y="91" class="field">retailer_name</text>
+ <text x="14" y="117" class="field">store_location</text><text x="14" y="143" class="field">fulfillment_type</text>
+</g>
+<!-- payout -->
+<g transform="translate(820,470)">
+ <rect class="entity" width="270" height="180"/><rect class="bar" width="270" height="38" rx="9"/>
+ <text x="14" y="26" class="head">PARTNER_PAYOUT</text>
+ <text x="14" y="65" class="field">PK payout_id</text><text x="14" y="91" class="field">FK partner_id</text>
+ <text x="14" y="117" class="field">FK order_id</text><text x="14" y="143" class="field">payout_amount</text>
+ <text x="14" y="169" class="field">payout_status</text>
+</g>
+<!-- footer -->
+<text x="50" y="760" class="note">PK = Primary Key   •   FK = Foreign Key</text>
+<text x="50" y="790" class="note">Relationships: Customer 1—many Orders; Order 1—many Stops; Retailer 1—many Stops;</text>
+<text x="50" y="815" class="note">Delivery Partner 1—many Payouts; Order 1—many Payouts (e.g., split or adjustment records).</text>
+</svg>
