@@ -1,0 +1,930 @@
+order_id,stop_sequence,retailer_id,retailer_name,stop_status
+O00001,1,R001,Zara,Ready / collected
+O00001,2,R009,Nike,Ready / collected
+O00002,1,R007,Best Buy,Ready / collected
+O00003,1,R010,Petco,Ready / collected
+O00004,1,R002,Nordstrom,Ready / collected
+O00005,1,R002,Nordstrom,Ready / collected
+O00005,2,R009,Nike,Ready / collected
+O00005,3,R012,Home Store,Ready / collected
+O00006,1,R010,Petco,Ready / collected
+O00007,1,R011,Independent Boutique,Ready / collected
+O00007,2,R009,Nike,Ready / collected
+O00008,1,R008,Local Market,Ready / collected
+O00009,1,R005,UNIQLO,Ready / collected
+O00010,1,R012,Home Store,Ready / collected
+O00011,1,R010,Petco,Ready / collected
+O00012,1,R006,West Elm,Ready / collected
+O00012,2,R012,Home Store,Ready / collected
+O00013,1,R010,Petco,Ready / collected
+O00014,1,R003,Apple,Exception
+O00015,1,R008,Local Market,Ready / collected
+O00015,2,R007,Best Buy,Ready / collected
+O00015,3,R001,Zara,Ready / collected
+O00016,1,R012,Home Store,Exception
+O00016,2,R006,West Elm,Exception
+O00016,3,R010,Petco,Exception
+O00017,1,R002,Nordstrom,Ready / collected
+O00017,2,R002,Nordstrom,Ready / collected
+O00017,3,R005,UNIQLO,Ready / collected
+O00018,1,R001,Zara,Ready / collected
+O00018,2,R012,Home Store,Ready / collected
+O00019,1,R005,UNIQLO,Ready / collected
+O00020,1,R001,Zara,Ready / collected
+O00021,1,R003,Apple,Ready / collected
+O00021,2,R010,Petco,Ready / collected
+O00022,1,R001,Zara,Ready / collected
+O00022,2,R004,Sephora,Ready / collected
+O00023,1,R012,Home Store,Ready / collected
+O00024,1,R007,Best Buy,Ready / collected
+O00025,1,R003,Apple,Ready / collected
+O00025,2,R008,Local Market,Ready / collected
+O00026,1,R003,Apple,Ready / collected
+O00027,1,R012,Home Store,Ready / collected
+O00028,1,R011,Independent Boutique,Ready / collected
+O00029,1,R003,Apple,Ready / collected
+O00029,2,R002,Nordstrom,Ready / collected
+O00030,1,R004,Sephora,Ready / collected
+O00030,2,R011,Independent Boutique,Ready / collected
+O00031,1,R008,Local Market,Ready / collected
+O00031,2,R010,Petco,Ready / collected
+O00031,3,R003,Apple,Ready / collected
+O00032,1,R001,Zara,Ready / collected
+O00032,2,R003,Apple,Ready / collected
+O00033,1,R010,Petco,Ready / collected
+O00034,1,R012,Home Store,Ready / collected
+O00035,1,R011,Independent Boutique,Ready / collected
+O00035,2,R009,Nike,Ready / collected
+O00035,3,R007,Best Buy,Ready / collected
+O00036,1,R007,Best Buy,Ready / collected
+O00037,1,R011,Independent Boutique,Ready / collected
+O00037,2,R007,Best Buy,Ready / collected
+O00037,3,R001,Zara,Ready / collected
+O00038,1,R004,Sephora,Ready / collected
+O00038,2,R008,Local Market,Ready / collected
+O00039,1,R006,West Elm,Ready / collected
+O00040,1,R001,Zara,Ready / collected
+O00040,2,R010,Petco,Ready / collected
+O00040,3,R003,Apple,Ready / collected
+O00041,1,R010,Petco,Ready / collected
+O00042,1,R004,Sephora,Ready / collected
+O00043,1,R011,Independent Boutique,Ready / collected
+O00044,1,R010,Petco,Ready / collected
+O00045,1,R002,Nordstrom,Ready / collected
+O00045,2,R002,Nordstrom,Ready / collected
+O00046,1,R008,Local Market,Ready / collected
+O00047,1,R002,Nordstrom,Ready / collected
+O00048,1,R012,Home Store,Ready / collected
+O00048,2,R006,West Elm,Ready / collected
+O00049,1,R012,Home Store,Ready / collected
+O00049,2,R003,Apple,Ready / collected
+O00050,1,R009,Nike,Ready / collected
+O00051,1,R012,Home Store,Ready / collected
+O00052,1,R011,Independent Boutique,Ready / collected
+O00053,1,R009,Nike,Ready / collected
+O00053,2,R006,West Elm,Ready / collected
+O00054,1,R004,Sephora,Ready / collected
+O00054,2,R009,Nike,Ready / collected
+O00055,1,R010,Petco,Ready / collected
+O00055,2,R004,Sephora,Ready / collected
+O00056,1,R012,Home Store,Ready / collected
+O00057,1,R009,Nike,Ready / collected
+O00057,2,R008,Local Market,Ready / collected
+O00057,3,R006,West Elm,Ready / collected
+O00058,1,R005,UNIQLO,Ready / collected
+O00059,1,R004,Sephora,Ready / collected
+O00060,1,R012,Home Store,Ready / collected
+O00061,1,R002,Nordstrom,Ready / collected
+O00062,1,R008,Local Market,Exception
+O00062,2,R004,Sephora,Exception
+O00063,1,R008,Local Market,Ready / collected
+O00063,2,R010,Petco,Ready / collected
+O00064,1,R011,Independent Boutique,Ready / collected
+O00065,1,R011,Independent Boutique,Ready / collected
+O00066,1,R012,Home Store,Ready / collected
+O00066,2,R004,Sephora,Ready / collected
+O00067,1,R007,Best Buy,Ready / collected
+O00068,1,R008,Local Market,Exception
+O00068,2,R007,Best Buy,Exception
+O00069,1,R003,Apple,Ready / collected
+O00069,2,R003,Apple,Ready / collected
+O00070,1,R010,Petco,Ready / collected
+O00071,1,R010,Petco,Ready / collected
+O00072,1,R003,Apple,Ready / collected
+O00072,2,R009,Nike,Ready / collected
+O00073,1,R001,Zara,Ready / collected
+O00074,1,R007,Best Buy,Ready / collected
+O00074,2,R004,Sephora,Ready / collected
+O00075,1,R005,UNIQLO,Ready / collected
+O00076,1,R009,Nike,Ready / collected
+O00076,2,R004,Sephora,Ready / collected
+O00077,1,R009,Nike,Ready / collected
+O00077,2,R007,Best Buy,Ready / collected
+O00077,3,R003,Apple,Ready / collected
+O00078,1,R008,Local Market,Ready / collected
+O00078,2,R011,Independent Boutique,Ready / collected
+O00078,3,R010,Petco,Ready / collected
+O00079,1,R009,Nike,Ready / collected
+O00079,2,R003,Apple,Ready / collected
+O00080,1,R003,Apple,Ready / collected
+O00081,1,R003,Apple,Ready / collected
+O00081,2,R003,Apple,Ready / collected
+O00081,3,R008,Local Market,Ready / collected
+O00082,1,R011,Independent Boutique,Exception
+O00083,1,R009,Nike,Ready / collected
+O00084,1,R004,Sephora,Ready / collected
+O00084,2,R005,UNIQLO,Ready / collected
+O00085,1,R009,Nike,Exception
+O00086,1,R008,Local Market,Ready / collected
+O00087,1,R012,Home Store,Ready / collected
+O00088,1,R009,Nike,Ready / collected
+O00089,1,R012,Home Store,Ready / collected
+O00089,2,R009,Nike,Ready / collected
+O00090,1,R008,Local Market,Ready / collected
+O00090,2,R003,Apple,Ready / collected
+O00090,3,R007,Best Buy,Ready / collected
+O00091,1,R008,Local Market,Ready / collected
+O00092,1,R011,Independent Boutique,Ready / collected
+O00092,2,R004,Sephora,Ready / collected
+O00093,1,R004,Sephora,Ready / collected
+O00094,1,R003,Apple,Ready / collected
+O00094,2,R012,Home Store,Ready / collected
+O00095,1,R005,UNIQLO,Ready / collected
+O00096,1,R004,Sephora,Ready / collected
+O00097,1,R008,Local Market,Ready / collected
+O00098,1,R003,Apple,Ready / collected
+O00099,1,R006,West Elm,Ready / collected
+O00099,2,R007,Best Buy,Ready / collected
+O00099,3,R004,Sephora,Ready / collected
+O00100,1,R002,Nordstrom,Ready / collected
+O00100,2,R012,Home Store,Ready / collected
+O00101,1,R006,West Elm,Ready / collected
+O00102,1,R012,Home Store,Ready / collected
+O00103,1,R006,West Elm,Ready / collected
+O00104,1,R002,Nordstrom,Ready / collected
+O00104,2,R004,Sephora,Ready / collected
+O00105,1,R005,UNIQLO,Ready / collected
+O00105,2,R005,UNIQLO,Ready / collected
+O00106,1,R005,UNIQLO,Ready / collected
+O00107,1,R011,Independent Boutique,Ready / collected
+O00108,1,R003,Apple,Ready / collected
+O00109,1,R002,Nordstrom,Ready / collected
+O00110,1,R012,Home Store,Ready / collected
+O00111,1,R002,Nordstrom,Ready / collected
+O00111,2,R005,UNIQLO,Ready / collected
+O00112,1,R005,UNIQLO,Ready / collected
+O00112,2,R002,Nordstrom,Ready / collected
+O00113,1,R002,Nordstrom,Exception
+O00114,1,R006,West Elm,Ready / collected
+O00115,1,R010,Petco,Ready / collected
+O00116,1,R009,Nike,Ready / collected
+O00117,1,R003,Apple,Ready / collected
+O00118,1,R003,Apple,Ready / collected
+O00118,2,R004,Sephora,Ready / collected
+O00119,1,R009,Nike,Ready / collected
+O00120,1,R008,Local Market,Ready / collected
+O00121,1,R006,West Elm,Ready / collected
+O00122,1,R001,Zara,Ready / collected
+O00123,1,R012,Home Store,Ready / collected
+O00123,2,R009,Nike,Ready / collected
+O00124,1,R004,Sephora,Ready / collected
+O00124,2,R008,Local Market,Ready / collected
+O00125,1,R011,Independent Boutique,Ready / collected
+O00126,1,R009,Nike,Ready / collected
+O00127,1,R004,Sephora,Ready / collected
+O00127,2,R006,West Elm,Ready / collected
+O00128,1,R007,Best Buy,Ready / collected
+O00129,1,R003,Apple,Ready / collected
+O00130,1,R011,Independent Boutique,Ready / collected
+O00131,1,R003,Apple,Ready / collected
+O00132,1,R009,Nike,Exception
+O00132,2,R011,Independent Boutique,Exception
+O00133,1,R012,Home Store,Ready / collected
+O00133,2,R005,UNIQLO,Ready / collected
+O00134,1,R003,Apple,Ready / collected
+O00135,1,R001,Zara,Exception
+O00136,1,R006,West Elm,Ready / collected
+O00136,2,R009,Nike,Ready / collected
+O00137,1,R001,Zara,Ready / collected
+O00137,2,R005,UNIQLO,Ready / collected
+O00138,1,R003,Apple,Ready / collected
+O00139,1,R007,Best Buy,Ready / collected
+O00140,1,R005,UNIQLO,Ready / collected
+O00140,2,R009,Nike,Ready / collected
+O00141,1,R009,Nike,Ready / collected
+O00142,1,R005,UNIQLO,Ready / collected
+O00142,2,R002,Nordstrom,Ready / collected
+O00142,3,R003,Apple,Ready / collected
+O00143,1,R007,Best Buy,Ready / collected
+O00143,2,R001,Zara,Ready / collected
+O00144,1,R002,Nordstrom,Exception
+O00144,2,R010,Petco,Exception
+O00145,1,R006,West Elm,Ready / collected
+O00145,2,R012,Home Store,Ready / collected
+O00145,3,R008,Local Market,Ready / collected
+O00146,1,R012,Home Store,Ready / collected
+O00146,2,R010,Petco,Ready / collected
+O00147,1,R012,Home Store,Ready / collected
+O00147,2,R009,Nike,Ready / collected
+O00148,1,R009,Nike,Ready / collected
+O00148,2,R009,Nike,Ready / collected
+O00149,1,R002,Nordstrom,Ready / collected
+O00149,2,R001,Zara,Ready / collected
+O00150,1,R011,Independent Boutique,Ready / collected
+O00151,1,R007,Best Buy,Ready / collected
+O00152,1,R011,Independent Boutique,Ready / collected
+O00153,1,R005,UNIQLO,Exception
+O00154,1,R002,Nordstrom,Ready / collected
+O00155,1,R012,Home Store,Ready / collected
+O00155,2,R012,Home Store,Ready / collected
+O00156,1,R002,Nordstrom,Ready / collected
+O00156,2,R005,UNIQLO,Ready / collected
+O00157,1,R004,Sephora,Ready / collected
+O00158,1,R007,Best Buy,Ready / collected
+O00158,2,R002,Nordstrom,Ready / collected
+O00158,3,R008,Local Market,Ready / collected
+O00159,1,R010,Petco,Ready / collected
+O00159,2,R011,Independent Boutique,Ready / collected
+O00160,1,R010,Petco,Ready / collected
+O00160,2,R003,Apple,Ready / collected
+O00161,1,R011,Independent Boutique,Ready / collected
+O00162,1,R001,Zara,Ready / collected
+O00162,2,R008,Local Market,Ready / collected
+O00163,1,R005,UNIQLO,Ready / collected
+O00163,2,R011,Independent Boutique,Ready / collected
+O00164,1,R011,Independent Boutique,Ready / collected
+O00165,1,R008,Local Market,Exception
+O00166,1,R002,Nordstrom,Ready / collected
+O00167,1,R002,Nordstrom,Ready / collected
+O00167,2,R008,Local Market,Ready / collected
+O00168,1,R008,Local Market,Ready / collected
+O00169,1,R005,UNIQLO,Ready / collected
+O00170,1,R004,Sephora,Ready / collected
+O00170,2,R002,Nordstrom,Ready / collected
+O00171,1,R012,Home Store,Ready / collected
+O00171,2,R009,Nike,Ready / collected
+O00172,1,R003,Apple,Ready / collected
+O00173,1,R012,Home Store,Ready / collected
+O00174,1,R008,Local Market,Ready / collected
+O00175,1,R001,Zara,Ready / collected
+O00176,1,R008,Local Market,Ready / collected
+O00176,2,R011,Independent Boutique,Ready / collected
+O00177,1,R005,UNIQLO,Ready / collected
+O00178,1,R006,West Elm,Ready / collected
+O00179,1,R002,Nordstrom,Ready / collected
+O00180,1,R006,West Elm,Ready / collected
+O00181,1,R002,Nordstrom,Ready / collected
+O00182,1,R012,Home Store,Ready / collected
+O00183,1,R006,West Elm,Ready / collected
+O00184,1,R007,Best Buy,Ready / collected
+O00185,1,R007,Best Buy,Ready / collected
+O00186,1,R005,UNIQLO,Ready / collected
+O00186,2,R002,Nordstrom,Ready / collected
+O00186,3,R001,Zara,Ready / collected
+O00187,1,R004,Sephora,Ready / collected
+O00188,1,R009,Nike,Ready / collected
+O00188,2,R006,West Elm,Ready / collected
+O00189,1,R007,Best Buy,Ready / collected
+O00190,1,R012,Home Store,Exception
+O00191,1,R012,Home Store,Ready / collected
+O00191,2,R007,Best Buy,Ready / collected
+O00192,1,R011,Independent Boutique,Ready / collected
+O00192,2,R005,UNIQLO,Ready / collected
+O00193,1,R009,Nike,Ready / collected
+O00194,1,R008,Local Market,Ready / collected
+O00194,2,R007,Best Buy,Ready / collected
+O00195,1,R005,UNIQLO,Ready / collected
+O00196,1,R007,Best Buy,Ready / collected
+O00196,2,R011,Independent Boutique,Ready / collected
+O00197,1,R008,Local Market,Ready / collected
+O00198,1,R003,Apple,Ready / collected
+O00198,2,R011,Independent Boutique,Ready / collected
+O00199,1,R004,Sephora,Ready / collected
+O00200,1,R008,Local Market,Ready / collected
+O00200,2,R006,West Elm,Ready / collected
+O00201,1,R003,Apple,Ready / collected
+O00201,2,R009,Nike,Ready / collected
+O00202,1,R002,Nordstrom,Ready / collected
+O00202,2,R003,Apple,Ready / collected
+O00203,1,R006,West Elm,Ready / collected
+O00203,2,R004,Sephora,Ready / collected
+O00204,1,R010,Petco,Ready / collected
+O00204,2,R004,Sephora,Ready / collected
+O00205,1,R007,Best Buy,Ready / collected
+O00205,2,R007,Best Buy,Ready / collected
+O00205,3,R012,Home Store,Ready / collected
+O00206,1,R005,UNIQLO,Ready / collected
+O00207,1,R008,Local Market,Ready / collected
+O00207,2,R005,UNIQLO,Ready / collected
+O00208,1,R002,Nordstrom,Exception
+O00209,1,R007,Best Buy,Ready / collected
+O00210,1,R007,Best Buy,Ready / collected
+O00211,1,R003,Apple,Ready / collected
+O00212,1,R012,Home Store,Ready / collected
+O00213,1,R001,Zara,Ready / collected
+O00213,2,R002,Nordstrom,Ready / collected
+O00213,3,R007,Best Buy,Ready / collected
+O00214,1,R004,Sephora,Ready / collected
+O00214,2,R002,Nordstrom,Ready / collected
+O00214,3,R004,Sephora,Ready / collected
+O00215,1,R009,Nike,Ready / collected
+O00216,1,R002,Nordstrom,Ready / collected
+O00216,2,R009,Nike,Ready / collected
+O00217,1,R003,Apple,Ready / collected
+O00218,1,R011,Independent Boutique,Ready / collected
+O00219,1,R011,Independent Boutique,Ready / collected
+O00219,2,R005,UNIQLO,Ready / collected
+O00220,1,R002,Nordstrom,Ready / collected
+O00221,1,R009,Nike,Ready / collected
+O00222,1,R005,UNIQLO,Ready / collected
+O00222,2,R004,Sephora,Ready / collected
+O00223,1,R009,Nike,Ready / collected
+O00223,2,R005,UNIQLO,Ready / collected
+O00224,1,R006,West Elm,Ready / collected
+O00225,1,R009,Nike,Ready / collected
+O00225,2,R004,Sephora,Ready / collected
+O00225,3,R009,Nike,Ready / collected
+O00226,1,R007,Best Buy,Ready / collected
+O00226,2,R012,Home Store,Ready / collected
+O00227,1,R001,Zara,Ready / collected
+O00228,1,R011,Independent Boutique,Ready / collected
+O00228,2,R011,Independent Boutique,Ready / collected
+O00228,3,R007,Best Buy,Ready / collected
+O00229,1,R004,Sephora,Ready / collected
+O00229,2,R011,Independent Boutique,Ready / collected
+O00230,1,R004,Sephora,Ready / collected
+O00231,1,R012,Home Store,Exception
+O00231,2,R007,Best Buy,Exception
+O00232,1,R004,Sephora,Ready / collected
+O00233,1,R012,Home Store,Ready / collected
+O00234,1,R008,Local Market,Ready / collected
+O00235,1,R004,Sephora,Ready / collected
+O00235,2,R004,Sephora,Ready / collected
+O00235,3,R008,Local Market,Ready / collected
+O00236,1,R005,UNIQLO,Ready / collected
+O00236,2,R002,Nordstrom,Ready / collected
+O00236,3,R010,Petco,Ready / collected
+O00237,1,R004,Sephora,Ready / collected
+O00238,1,R011,Independent Boutique,Ready / collected
+O00238,2,R001,Zara,Ready / collected
+O00239,1,R001,Zara,Ready / collected
+O00239,2,R004,Sephora,Ready / collected
+O00240,1,R007,Best Buy,Ready / collected
+O00240,2,R001,Zara,Ready / collected
+O00240,3,R012,Home Store,Ready / collected
+O00241,1,R007,Best Buy,Ready / collected
+O00242,1,R012,Home Store,Ready / collected
+O00243,1,R003,Apple,Ready / collected
+O00244,1,R003,Apple,Ready / collected
+O00244,2,R011,Independent Boutique,Ready / collected
+O00244,3,R009,Nike,Ready / collected
+O00245,1,R005,UNIQLO,Ready / collected
+O00246,1,R006,West Elm,Ready / collected
+O00246,2,R008,Local Market,Ready / collected
+O00246,3,R003,Apple,Ready / collected
+O00247,1,R002,Nordstrom,Ready / collected
+O00247,2,R005,UNIQLO,Ready / collected
+O00248,1,R007,Best Buy,Ready / collected
+O00248,2,R002,Nordstrom,Ready / collected
+O00249,1,R006,West Elm,Ready / collected
+O00249,2,R005,UNIQLO,Ready / collected
+O00249,3,R007,Best Buy,Ready / collected
+O00250,1,R012,Home Store,Ready / collected
+O00250,2,R008,Local Market,Ready / collected
+O00250,3,R004,Sephora,Ready / collected
+O00251,1,R004,Sephora,Ready / collected
+O00251,2,R006,West Elm,Ready / collected
+O00252,1,R001,Zara,Ready / collected
+O00252,2,R011,Independent Boutique,Ready / collected
+O00252,3,R007,Best Buy,Ready / collected
+O00253,1,R001,Zara,Ready / collected
+O00253,2,R007,Best Buy,Ready / collected
+O00254,1,R002,Nordstrom,Ready / collected
+O00255,1,R004,Sephora,Ready / collected
+O00256,1,R006,West Elm,Ready / collected
+O00256,2,R005,UNIQLO,Ready / collected
+O00257,1,R005,UNIQLO,Ready / collected
+O00257,2,R012,Home Store,Ready / collected
+O00257,3,R012,Home Store,Ready / collected
+O00258,1,R005,UNIQLO,Ready / collected
+O00258,2,R001,Zara,Ready / collected
+O00259,1,R004,Sephora,Ready / collected
+O00259,2,R002,Nordstrom,Ready / collected
+O00260,1,R007,Best Buy,Ready / collected
+O00260,2,R005,UNIQLO,Ready / collected
+O00261,1,R003,Apple,Ready / collected
+O00262,1,R001,Zara,Ready / collected
+O00263,1,R010,Petco,Ready / collected
+O00263,2,R004,Sephora,Ready / collected
+O00263,3,R006,West Elm,Ready / collected
+O00264,1,R006,West Elm,Ready / collected
+O00265,1,R007,Best Buy,Ready / collected
+O00265,2,R003,Apple,Ready / collected
+O00266,1,R002,Nordstrom,Ready / collected
+O00267,1,R003,Apple,Exception
+O00267,2,R007,Best Buy,Exception
+O00267,3,R002,Nordstrom,Exception
+O00268,1,R010,Petco,Ready / collected
+O00269,1,R002,Nordstrom,Ready / collected
+O00269,2,R007,Best Buy,Ready / collected
+O00269,3,R008,Local Market,Ready / collected
+O00270,1,R004,Sephora,Ready / collected
+O00270,2,R003,Apple,Ready / collected
+O00271,1,R010,Petco,Ready / collected
+O00271,2,R011,Independent Boutique,Ready / collected
+O00272,1,R005,UNIQLO,Ready / collected
+O00273,1,R010,Petco,Ready / collected
+O00273,2,R005,UNIQLO,Ready / collected
+O00273,3,R006,West Elm,Ready / collected
+O00274,1,R004,Sephora,Ready / collected
+O00275,1,R003,Apple,Ready / collected
+O00275,2,R004,Sephora,Ready / collected
+O00276,1,R005,UNIQLO,Ready / collected
+O00277,1,R002,Nordstrom,Ready / collected
+O00278,1,R004,Sephora,Ready / collected
+O00278,2,R009,Nike,Ready / collected
+O00278,3,R009,Nike,Ready / collected
+O00279,1,R001,Zara,Exception
+O00280,1,R008,Local Market,Ready / collected
+O00280,2,R004,Sephora,Ready / collected
+O00281,1,R001,Zara,Ready / collected
+O00282,1,R002,Nordstrom,Ready / collected
+O00283,1,R010,Petco,Ready / collected
+O00283,2,R010,Petco,Ready / collected
+O00284,1,R006,West Elm,Ready / collected
+O00284,2,R009,Nike,Ready / collected
+O00285,1,R010,Petco,Ready / collected
+O00285,2,R005,UNIQLO,Ready / collected
+O00286,1,R011,Independent Boutique,Ready / collected
+O00287,1,R001,Zara,Ready / collected
+O00287,2,R006,West Elm,Ready / collected
+O00288,1,R001,Zara,Ready / collected
+O00289,1,R001,Zara,Ready / collected
+O00290,1,R006,West Elm,Ready / collected
+O00290,2,R007,Best Buy,Ready / collected
+O00291,1,R010,Petco,Ready / collected
+O00292,1,R004,Sephora,Ready / collected
+O00292,2,R001,Zara,Ready / collected
+O00293,1,R007,Best Buy,Exception
+O00293,2,R002,Nordstrom,Exception
+O00294,1,R011,Independent Boutique,Ready / collected
+O00295,1,R007,Best Buy,Ready / collected
+O00295,2,R012,Home Store,Ready / collected
+O00295,3,R005,UNIQLO,Ready / collected
+O00296,1,R007,Best Buy,Exception
+O00297,1,R012,Home Store,Ready / collected
+O00297,2,R010,Petco,Ready / collected
+O00298,1,R007,Best Buy,Ready / collected
+O00298,2,R001,Zara,Ready / collected
+O00299,1,R007,Best Buy,Ready / collected
+O00300,1,R001,Zara,Ready / collected
+O00300,2,R007,Best Buy,Ready / collected
+O00301,1,R002,Nordstrom,Ready / collected
+O00302,1,R010,Petco,Ready / collected
+O00302,2,R006,West Elm,Ready / collected
+O00303,1,R001,Zara,Exception
+O00304,1,R011,Independent Boutique,Ready / collected
+O00305,1,R012,Home Store,Exception
+O00306,1,R006,West Elm,Ready / collected
+O00306,2,R005,UNIQLO,Ready / collected
+O00307,1,R002,Nordstrom,Ready / collected
+O00307,2,R002,Nordstrom,Ready / collected
+O00308,1,R004,Sephora,Ready / collected
+O00309,1,R008,Local Market,Exception
+O00309,2,R006,West Elm,Exception
+O00310,1,R002,Nordstrom,Ready / collected
+O00310,2,R012,Home Store,Ready / collected
+O00310,3,R010,Petco,Ready / collected
+O00311,1,R010,Petco,Ready / collected
+O00312,1,R008,Local Market,Ready / collected
+O00313,1,R001,Zara,Ready / collected
+O00313,2,R007,Best Buy,Ready / collected
+O00314,1,R006,West Elm,Ready / collected
+O00314,2,R002,Nordstrom,Ready / collected
+O00315,1,R012,Home Store,Ready / collected
+O00315,2,R004,Sephora,Ready / collected
+O00316,1,R002,Nordstrom,Exception
+O00317,1,R009,Nike,Ready / collected
+O00318,1,R005,UNIQLO,Ready / collected
+O00319,1,R007,Best Buy,Ready / collected
+O00319,2,R011,Independent Boutique,Ready / collected
+O00320,1,R009,Nike,Ready / collected
+O00320,2,R008,Local Market,Ready / collected
+O00320,3,R003,Apple,Ready / collected
+O00321,1,R010,Petco,Ready / collected
+O00321,2,R008,Local Market,Ready / collected
+O00322,1,R008,Local Market,Ready / collected
+O00323,1,R008,Local Market,Ready / collected
+O00323,2,R007,Best Buy,Ready / collected
+O00324,1,R003,Apple,Ready / collected
+O00325,1,R006,West Elm,Ready / collected
+O00325,2,R002,Nordstrom,Ready / collected
+O00326,1,R001,Zara,Ready / collected
+O00327,1,R012,Home Store,Ready / collected
+O00327,2,R006,West Elm,Ready / collected
+O00327,3,R012,Home Store,Ready / collected
+O00328,1,R009,Nike,Ready / collected
+O00329,1,R001,Zara,Ready / collected
+O00330,1,R004,Sephora,Ready / collected
+O00331,1,R005,UNIQLO,Ready / collected
+O00332,1,R002,Nordstrom,Ready / collected
+O00332,2,R006,West Elm,Ready / collected
+O00333,1,R006,West Elm,Ready / collected
+O00334,1,R003,Apple,Ready / collected
+O00334,2,R005,UNIQLO,Ready / collected
+O00335,1,R010,Petco,Ready / collected
+O00336,1,R006,West Elm,Exception
+O00336,2,R001,Zara,Exception
+O00337,1,R007,Best Buy,Ready / collected
+O00338,1,R011,Independent Boutique,Ready / collected
+O00339,1,R003,Apple,Ready / collected
+O00339,2,R005,UNIQLO,Ready / collected
+O00340,1,R011,Independent Boutique,Ready / collected
+O00340,2,R006,West Elm,Ready / collected
+O00340,3,R008,Local Market,Ready / collected
+O00341,1,R009,Nike,Ready / collected
+O00342,1,R005,UNIQLO,Ready / collected
+O00342,2,R007,Best Buy,Ready / collected
+O00343,1,R006,West Elm,Ready / collected
+O00344,1,R008,Local Market,Ready / collected
+O00345,1,R010,Petco,Ready / collected
+O00345,2,R012,Home Store,Ready / collected
+O00346,1,R009,Nike,Ready / collected
+O00347,1,R011,Independent Boutique,Ready / collected
+O00348,1,R012,Home Store,Ready / collected
+O00348,2,R001,Zara,Ready / collected
+O00349,1,R005,UNIQLO,Ready / collected
+O00349,2,R010,Petco,Ready / collected
+O00350,1,R009,Nike,Ready / collected
+O00351,1,R003,Apple,Ready / collected
+O00351,2,R008,Local Market,Ready / collected
+O00352,1,R001,Zara,Ready / collected
+O00352,2,R001,Zara,Ready / collected
+O00353,1,R005,UNIQLO,Ready / collected
+O00354,1,R009,Nike,Ready / collected
+O00355,1,R010,Petco,Ready / collected
+O00356,1,R006,West Elm,Exception
+O00357,1,R003,Apple,Ready / collected
+O00358,1,R012,Home Store,Ready / collected
+O00358,2,R003,Apple,Ready / collected
+O00359,1,R002,Nordstrom,Ready / collected
+O00360,1,R007,Best Buy,Ready / collected
+O00360,2,R005,UNIQLO,Ready / collected
+O00360,3,R001,Zara,Ready / collected
+O00361,1,R010,Petco,Ready / collected
+O00362,1,R004,Sephora,Ready / collected
+O00363,1,R001,Zara,Ready / collected
+O00363,2,R001,Zara,Ready / collected
+O00364,1,R003,Apple,Ready / collected
+O00365,1,R001,Zara,Ready / collected
+O00366,1,R010,Petco,Ready / collected
+O00367,1,R004,Sephora,Exception
+O00367,2,R009,Nike,Exception
+O00368,1,R009,Nike,Ready / collected
+O00369,1,R005,UNIQLO,Ready / collected
+O00370,1,R012,Home Store,Ready / collected
+O00371,1,R007,Best Buy,Ready / collected
+O00372,1,R003,Apple,Exception
+O00373,1,R005,UNIQLO,Ready / collected
+O00374,1,R002,Nordstrom,Ready / collected
+O00374,2,R006,West Elm,Ready / collected
+O00375,1,R005,UNIQLO,Ready / collected
+O00376,1,R005,UNIQLO,Ready / collected
+O00377,1,R009,Nike,Ready / collected
+O00378,1,R005,UNIQLO,Ready / collected
+O00379,1,R003,Apple,Ready / collected
+O00379,2,R012,Home Store,Ready / collected
+O00380,1,R007,Best Buy,Ready / collected
+O00380,2,R006,West Elm,Ready / collected
+O00381,1,R011,Independent Boutique,Ready / collected
+O00382,1,R009,Nike,Ready / collected
+O00383,1,R007,Best Buy,Ready / collected
+O00383,2,R012,Home Store,Ready / collected
+O00383,3,R004,Sephora,Ready / collected
+O00384,1,R007,Best Buy,Ready / collected
+O00385,1,R003,Apple,Ready / collected
+O00386,1,R002,Nordstrom,Ready / collected
+O00386,2,R002,Nordstrom,Ready / collected
+O00387,1,R003,Apple,Ready / collected
+O00388,1,R001,Zara,Ready / collected
+O00389,1,R012,Home Store,Ready / collected
+O00390,1,R002,Nordstrom,Ready / collected
+O00391,1,R009,Nike,Ready / collected
+O00392,1,R002,Nordstrom,Ready / collected
+O00393,1,R004,Sephora,Ready / collected
+O00393,2,R002,Nordstrom,Ready / collected
+O00393,3,R001,Zara,Ready / collected
+O00394,1,R011,Independent Boutique,Ready / collected
+O00395,1,R002,Nordstrom,Ready / collected
+O00395,2,R003,Apple,Ready / collected
+O00395,3,R002,Nordstrom,Ready / collected
+O00396,1,R006,West Elm,Exception
+O00396,2,R007,Best Buy,Exception
+O00397,1,R006,West Elm,Ready / collected
+O00398,1,R001,Zara,Ready / collected
+O00399,1,R010,Petco,Ready / collected
+O00400,1,R010,Petco,Ready / collected
+O00400,2,R012,Home Store,Ready / collected
+O00401,1,R001,Zara,Ready / collected
+O00401,2,R007,Best Buy,Ready / collected
+O00402,1,R008,Local Market,Ready / collected
+O00403,1,R012,Home Store,Ready / collected
+O00403,2,R002,Nordstrom,Ready / collected
+O00403,3,R010,Petco,Ready / collected
+O00404,1,R007,Best Buy,Ready / collected
+O00405,1,R005,UNIQLO,Ready / collected
+O00406,1,R006,West Elm,Ready / collected
+O00407,1,R008,Local Market,Ready / collected
+O00408,1,R010,Petco,Ready / collected
+O00408,2,R006,West Elm,Ready / collected
+O00409,1,R005,UNIQLO,Ready / collected
+O00410,1,R008,Local Market,Ready / collected
+O00411,1,R011,Independent Boutique,Ready / collected
+O00412,1,R012,Home Store,Ready / collected
+O00412,2,R009,Nike,Ready / collected
+O00413,1,R002,Nordstrom,Exception
+O00414,1,R012,Home Store,Ready / collected
+O00414,2,R002,Nordstrom,Ready / collected
+O00415,1,R006,West Elm,Ready / collected
+O00416,1,R005,UNIQLO,Ready / collected
+O00416,2,R007,Best Buy,Ready / collected
+O00416,3,R009,Nike,Ready / collected
+O00417,1,R011,Independent Boutique,Ready / collected
+O00418,1,R003,Apple,Ready / collected
+O00419,1,R010,Petco,Ready / collected
+O00419,2,R006,West Elm,Ready / collected
+O00419,3,R009,Nike,Ready / collected
+O00420,1,R011,Independent Boutique,Ready / collected
+O00421,1,R008,Local Market,Exception
+O00422,1,R003,Apple,Ready / collected
+O00423,1,R011,Independent Boutique,Ready / collected
+O00424,1,R005,UNIQLO,Ready / collected
+O00425,1,R012,Home Store,Ready / collected
+O00426,1,R012,Home Store,Ready / collected
+O00426,2,R006,West Elm,Ready / collected
+O00426,3,R010,Petco,Ready / collected
+O00427,1,R004,Sephora,Ready / collected
+O00427,2,R006,West Elm,Ready / collected
+O00428,1,R012,Home Store,Ready / collected
+O00429,1,R011,Independent Boutique,Ready / collected
+O00430,1,R007,Best Buy,Ready / collected
+O00431,1,R005,UNIQLO,Ready / collected
+O00431,2,R012,Home Store,Ready / collected
+O00432,1,R005,UNIQLO,Ready / collected
+O00433,1,R011,Independent Boutique,Ready / collected
+O00433,2,R002,Nordstrom,Ready / collected
+O00434,1,R007,Best Buy,Ready / collected
+O00434,2,R008,Local Market,Ready / collected
+O00435,1,R007,Best Buy,Ready / collected
+O00435,2,R007,Best Buy,Ready / collected
+O00436,1,R008,Local Market,Ready / collected
+O00437,1,R005,UNIQLO,Ready / collected
+O00438,1,R012,Home Store,Ready / collected
+O00438,2,R004,Sephora,Ready / collected
+O00439,1,R004,Sephora,Ready / collected
+O00440,1,R011,Independent Boutique,Ready / collected
+O00440,2,R002,Nordstrom,Ready / collected
+O00441,1,R005,UNIQLO,Exception
+O00442,1,R004,Sephora,Ready / collected
+O00443,1,R005,UNIQLO,Ready / collected
+O00443,2,R007,Best Buy,Ready / collected
+O00444,1,R001,Zara,Ready / collected
+O00445,1,R011,Independent Boutique,Ready / collected
+O00446,1,R007,Best Buy,Ready / collected
+O00447,1,R005,UNIQLO,Exception
+O00448,1,R012,Home Store,Ready / collected
+O00449,1,R002,Nordstrom,Ready / collected
+O00449,2,R010,Petco,Ready / collected
+O00450,1,R012,Home Store,Ready / collected
+O00451,1,R011,Independent Boutique,Ready / collected
+O00452,1,R007,Best Buy,Ready / collected
+O00452,2,R012,Home Store,Ready / collected
+O00452,3,R008,Local Market,Ready / collected
+O00453,1,R007,Best Buy,Ready / collected
+O00453,2,R009,Nike,Ready / collected
+O00454,1,R011,Independent Boutique,Ready / collected
+O00454,2,R001,Zara,Ready / collected
+O00454,3,R005,UNIQLO,Ready / collected
+O00455,1,R007,Best Buy,Ready / collected
+O00456,1,R002,Nordstrom,Ready / collected
+O00456,2,R007,Best Buy,Ready / collected
+O00456,3,R007,Best Buy,Ready / collected
+O00457,1,R002,Nordstrom,Ready / collected
+O00457,2,R004,Sephora,Ready / collected
+O00458,1,R009,Nike,Ready / collected
+O00459,1,R008,Local Market,Ready / collected
+O00459,2,R004,Sephora,Ready / collected
+O00460,1,R002,Nordstrom,Ready / collected
+O00460,2,R011,Independent Boutique,Ready / collected
+O00461,1,R011,Independent Boutique,Ready / collected
+O00461,2,R009,Nike,Ready / collected
+O00462,1,R006,West Elm,Ready / collected
+O00463,1,R005,UNIQLO,Ready / collected
+O00464,1,R006,West Elm,Ready / collected
+O00465,1,R012,Home Store,Ready / collected
+O00466,1,R007,Best Buy,Ready / collected
+O00466,2,R011,Independent Boutique,Ready / collected
+O00467,1,R001,Zara,Ready / collected
+O00468,1,R004,Sephora,Ready / collected
+O00469,1,R008,Local Market,Ready / collected
+O00470,1,R010,Petco,Ready / collected
+O00470,2,R011,Independent Boutique,Ready / collected
+O00470,3,R002,Nordstrom,Ready / collected
+O00471,1,R005,UNIQLO,Ready / collected
+O00472,1,R002,Nordstrom,Ready / collected
+O00473,1,R009,Nike,Ready / collected
+O00474,1,R011,Independent Boutique,Ready / collected
+O00474,2,R001,Zara,Ready / collected
+O00474,3,R004,Sephora,Ready / collected
+O00475,1,R005,UNIQLO,Ready / collected
+O00476,1,R004,Sephora,Ready / collected
+O00477,1,R006,West Elm,Ready / collected
+O00478,1,R007,Best Buy,Ready / collected
+O00479,1,R011,Independent Boutique,Ready / collected
+O00480,1,R008,Local Market,Ready / collected
+O00481,1,R012,Home Store,Ready / collected
+O00481,2,R008,Local Market,Ready / collected
+O00482,1,R005,UNIQLO,Ready / collected
+O00482,2,R007,Best Buy,Ready / collected
+O00483,1,R008,Local Market,Ready / collected
+O00483,2,R008,Local Market,Ready / collected
+O00484,1,R008,Local Market,Ready / collected
+O00485,1,R004,Sephora,Ready / collected
+O00486,1,R009,Nike,Ready / collected
+O00486,2,R010,Petco,Ready / collected
+O00487,1,R006,West Elm,Ready / collected
+O00488,1,R011,Independent Boutique,Ready / collected
+O00489,1,R006,West Elm,Ready / collected
+O00490,1,R011,Independent Boutique,Ready / collected
+O00491,1,R011,Independent Boutique,Ready / collected
+O00492,1,R001,Zara,Ready / collected
+O00493,1,R002,Nordstrom,Ready / collected
+O00494,1,R003,Apple,Ready / collected
+O00495,1,R011,Independent Boutique,Exception
+O00496,1,R002,Nordstrom,Ready / collected
+O00496,2,R011,Independent Boutique,Ready / collected
+O00497,1,R008,Local Market,Ready / collected
+O00498,1,R007,Best Buy,Ready / collected
+O00499,1,R005,UNIQLO,Ready / collected
+O00499,2,R009,Nike,Ready / collected
+O00499,3,R001,Zara,Ready / collected
+O00500,1,R006,West Elm,Ready / collected
+O00500,2,R008,Local Market,Ready / collected
+O00500,3,R007,Best Buy,Ready / collected
+O00501,1,R009,Nike,Ready / collected
+O00502,1,R011,Independent Boutique,Ready / collected
+O00503,1,R006,West Elm,Ready / collected
+O00503,2,R004,Sephora,Ready / collected
+O00504,1,R003,Apple,Ready / collected
+O00504,2,R010,Petco,Ready / collected
+O00504,3,R011,Independent Boutique,Ready / collected
+O00505,1,R007,Best Buy,Ready / collected
+O00506,1,R007,Best Buy,Ready / collected
+O00507,1,R001,Zara,Ready / collected
+O00507,2,R001,Zara,Ready / collected
+O00507,3,R004,Sephora,Ready / collected
+O00508,1,R009,Nike,Ready / collected
+O00509,1,R011,Independent Boutique,Ready / collected
+O00509,2,R011,Independent Boutique,Ready / collected
+O00510,1,R001,Zara,Ready / collected
+O00510,2,R011,Independent Boutique,Ready / collected
+O00510,3,R011,Independent Boutique,Ready / collected
+O00511,1,R002,Nordstrom,Ready / collected
+O00512,1,R007,Best Buy,Ready / collected
+O00513,1,R006,West Elm,Ready / collected
+O00513,2,R003,Apple,Ready / collected
+O00514,1,R003,Apple,Exception
+O00514,2,R007,Best Buy,Exception
+O00514,3,R001,Zara,Exception
+O00515,1,R007,Best Buy,Ready / collected
+O00516,1,R010,Petco,Ready / collected
+O00516,2,R009,Nike,Ready / collected
+O00517,1,R007,Best Buy,Ready / collected
+O00517,2,R010,Petco,Ready / collected
+O00518,1,R002,Nordstrom,Ready / collected
+O00519,1,R010,Petco,Ready / collected
+O00520,1,R007,Best Buy,Ready / collected
+O00521,1,R011,Independent Boutique,Ready / collected
+O00522,1,R003,Apple,Ready / collected
+O00522,2,R011,Independent Boutique,Ready / collected
+O00523,1,R001,Zara,Ready / collected
+O00524,1,R002,Nordstrom,Ready / collected
+O00525,1,R003,Apple,Ready / collected
+O00525,2,R008,Local Market,Ready / collected
+O00526,1,R012,Home Store,Ready / collected
+O00526,2,R010,Petco,Ready / collected
+O00527,1,R012,Home Store,Ready / collected
+O00527,2,R012,Home Store,Ready / collected
+O00528,1,R006,West Elm,Ready / collected
+O00529,1,R005,UNIQLO,Ready / collected
+O00530,1,R011,Independent Boutique,Ready / collected
+O00531,1,R012,Home Store,Ready / collected
+O00532,1,R001,Zara,Ready / collected
+O00532,2,R001,Zara,Ready / collected
+O00533,1,R005,UNIQLO,Ready / collected
+O00533,2,R005,UNIQLO,Ready / collected
+O00534,1,R010,Petco,Ready / collected
+O00534,2,R001,Zara,Ready / collected
+O00534,3,R006,West Elm,Ready / collected
+O00535,1,R008,Local Market,Ready / collected
+O00536,1,R002,Nordstrom,Ready / collected
+O00537,1,R011,Independent Boutique,Ready / collected
+O00538,1,R007,Best Buy,Ready / collected
+O00538,2,R008,Local Market,Ready / collected
+O00539,1,R005,UNIQLO,Ready / collected
+O00540,1,R010,Petco,Ready / collected
+O00541,1,R003,Apple,Ready / collected
+O00541,2,R010,Petco,Ready / collected
+O00542,1,R004,Sephora,Ready / collected
+O00543,1,R011,Independent Boutique,Ready / collected
+O00543,2,R007,Best Buy,Ready / collected
+O00544,1,R005,UNIQLO,Ready / collected
+O00545,1,R005,UNIQLO,Ready / collected
+O00545,2,R005,UNIQLO,Ready / collected
+O00546,1,R010,Petco,Ready / collected
+O00547,1,R003,Apple,Ready / collected
+O00548,1,R009,Nike,Ready / collected
+O00549,1,R009,Nike,Ready / collected
+O00549,2,R002,Nordstrom,Ready / collected
+O00549,3,R009,Nike,Ready / collected
+O00550,1,R004,Sephora,Ready / collected
+O00551,1,R010,Petco,Ready / collected
+O00551,2,R001,Zara,Ready / collected
+O00551,3,R011,Independent Boutique,Ready / collected
+O00552,1,R012,Home Store,Ready / collected
+O00552,2,R004,Sephora,Ready / collected
+O00553,1,R007,Best Buy,Ready / collected
+O00554,1,R009,Nike,Ready / collected
+O00554,2,R006,West Elm,Ready / collected
+O00555,1,R007,Best Buy,Ready / collected
+O00555,2,R010,Petco,Ready / collected
+O00556,1,R009,Nike,Exception
+O00556,2,R010,Petco,Exception
+O00557,1,R004,Sephora,Ready / collected
+O00557,2,R004,Sephora,Ready / collected
+O00558,1,R012,Home Store,Ready / collected
+O00558,2,R005,UNIQLO,Ready / collected
+O00558,3,R006,West Elm,Ready / collected
+O00559,1,R009,Nike,Ready / collected
+O00559,2,R003,Apple,Ready / collected
+O00559,3,R004,Sephora,Ready / collected
+O00560,1,R006,West Elm,Ready / collected
+O00561,1,R011,Independent Boutique,Ready / collected
+O00562,1,R003,Apple,Ready / collected
+O00562,2,R006,West Elm,Ready / collected
+O00562,3,R010,Petco,Ready / collected
+O00563,1,R009,Nike,Exception
+O00564,1,R001,Zara,Ready / collected
+O00565,1,R010,Petco,Ready / collected
+O00566,1,R005,UNIQLO,Ready / collected
+O00567,1,R008,Local Market,Ready / collected
+O00567,2,R010,Petco,Ready / collected
+O00568,1,R001,Zara,Ready / collected
+O00569,1,R003,Apple,Ready / collected
+O00570,1,R001,Zara,Ready / collected
+O00571,1,R009,Nike,Ready / collected
+O00571,2,R006,West Elm,Ready / collected
+O00571,3,R012,Home Store,Ready / collected
+O00572,1,R002,Nordstrom,Ready / collected
+O00573,1,R005,UNIQLO,Exception
+O00574,1,R011,Independent Boutique,Ready / collected
+O00575,1,R003,Apple,Ready / collected
+O00575,2,R008,Local Market,Ready / collected
+O00576,1,R004,Sephora,Ready / collected
+O00577,1,R001,Zara,Ready / collected
+O00578,1,R001,Zara,Ready / collected
+O00579,1,R005,UNIQLO,Ready / collected
+O00579,2,R009,Nike,Ready / collected
+O00580,1,R002,Nordstrom,Ready / collected
+O00580,2,R003,Apple,Ready / collected
+O00581,1,R004,Sephora,Ready / collected
+O00581,2,R011,Independent Boutique,Ready / collected
+O00581,3,R012,Home Store,Ready / collected
+O00582,1,R011,Independent Boutique,Ready / collected
+O00583,1,R006,West Elm,Ready / collected
+O00584,1,R007,Best Buy,Ready / collected
+O00585,1,R008,Local Market,Ready / collected
+O00586,1,R008,Local Market,Ready / collected
+O00587,1,R011,Independent Boutique,Ready / collected
+O00587,2,R001,Zara,Ready / collected
+O00588,1,R001,Zara,Ready / collected
+O00589,1,R002,Nordstrom,Ready / collected
+O00590,1,R008,Local Market,Ready / collected
+O00591,1,R001,Zara,Ready / collected
+O00592,1,R006,West Elm,Ready / collected
+O00592,2,R006,West Elm,Ready / collected
+O00593,1,R002,Nordstrom,Ready / collected
+O00593,2,R011,Independent Boutique,Ready / collected
+O00594,1,R006,West Elm,Ready / collected
+O00595,1,R003,Apple,Ready / collected
+O00595,2,R012,Home Store,Ready / collected
+O00596,1,R008,Local Market,Ready / collected
+O00596,2,R003,Apple,Ready / collected
+O00597,1,R007,Best Buy,Ready / collected
+O00598,1,R001,Zara,Ready / collected
+O00598,2,R005,UNIQLO,Ready / collected
+O00599,1,R003,Apple,Ready / collected
+O00599,2,R005,UNIQLO,Ready / collected
+O00599,3,R008,Local Market,Ready / collected
+O00600,1,R008,Local Market,Ready / collected
+O00600,2,R008,Local Market,Ready / collected

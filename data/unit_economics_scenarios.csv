@@ -1,0 +1,4 @@
+scenario,commission_rate,success_rate,avg_gmv_usd,avg_delivery_fee_usd,avg_partner_payout_usd,payment_processing_usd,refund_exposure_usd_per_order,illustrative_contribution_before_fixed_costs_usd
+Conservative,0.07,0.85,110,8.5,13.5,3.8,4.0,-4.749999999999996
+Base,0.1,0.94,110,8.5,11.5,3.8,2.0,2.5500000000000016
+Upside,0.12,0.97,110,8.5,10.9,3.8,1.0,6.3500000000000005

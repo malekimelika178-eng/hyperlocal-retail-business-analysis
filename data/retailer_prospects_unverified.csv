@@ -1,0 +1,13 @@
+retailer_id,retailer_name,category,pilot_zone,integration_type,pickup_model,status
+R001,Zara,Fashion,UTC,Merchant portal,Existing pickup,Prospective example; not a confirmed partner
+R002,Nordstrom,Fashion,La Jolla Village,Merchant portal,Existing pickup,Prospective example; not a confirmed partner
+R003,Apple,Electronics,University City,API/POS integration,Existing pickup,Prospective example; not a confirmed partner
+R004,Sephora,Beauty,Sorrento Valley,Merchant portal,Existing pickup,Prospective example; not a confirmed partner
+R005,UNIQLO,Fashion,UTC,Hybrid,Existing pickup,Prospective example; not a confirmed partner
+R006,West Elm,Home & Lifestyle,La Jolla Village,API/POS integration,Existing pickup,Prospective example; not a confirmed partner
+R007,Best Buy,Electronics,University City,Merchant portal,Proposed pickup partnership,Prospective example; not a confirmed partner
+R008,Local Market,Grocery & Essentials,Sorrento Valley,API/POS integration,Existing pickup,Prospective example; not a confirmed partner
+R009,Nike,Sporting Goods,UTC,API/POS integration,Proposed pickup partnership,Prospective example; not a confirmed partner
+R010,Petco,Pet Supplies,La Jolla Village,API/POS integration,Existing pickup,Prospective example; not a confirmed partner
+R011,Independent Boutique,Fashion,University City,API/POS integration,Existing pickup,Prospective example; not a confirmed partner
+R012,Home Store,Home & Lifestyle,Sorrento Valley,Hybrid,Proposed pickup partnership,Prospective example; not a confirmed partner
